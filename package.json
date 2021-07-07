@@ -1,0 +1,27 @@
+{
+  "name": "bottests",
+  "version": "1.0.0",
+  "description": "slackbot",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochacaio/botTests.git"
+  },
+  "keywords": [
+    "slackbot"
+  ],
+  "author": "Caio Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rochacaio/botTests/issues"
+  },
+  "homepage": "https://github.com/rochacaio/botTests#readme",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/web-api": "^6.2.4",
+    "nodemon": "^2.0.9"
+  }
+}
